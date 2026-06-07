@@ -1,0 +1,86 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Variáveis de ambiente
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Chroma / Vector Database
+# =========================
+data/chroma/
+chroma/
+*.sqlite3
+*.db
+
+# =========================
+# Cache local
+# =========================
+data/cache.json
+.cache/
+.cache_semantic/
+.cache_exact/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Pytest / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Arquivos temporários
+# =========================
+*.tmp
+*.temp
+*.bak
